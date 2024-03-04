@@ -1,0 +1,174 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+
+h1 {
+    border: 2px solid lightblue;
+}
+
+.background { /*sets background for title*/
+    background-color: lightblue;
+}
+
+nav li {
+    display: inline-block 
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    text-shadow: 0 0 5px #ff0000;
+}
+
+.bold {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0.1;
+}
+
+.IMG {
+    background-image: url('imgs/360_F_104619688_UP27I7cxkZKuNZn9GxCLCj0TztesAyMV.jpg');
+}
+
+.container {
+    position: relative;
+}
+
+.text-over-image {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    padding: 10px 20px;
+}
+
+#About-Me {
+    font-size: 55px;
+    padding-top: 5%;
+    padding-left: 15%; /*to add spacing between border and text*/
+    color: darkblue;
+    border-right: 2px solid blue;
+    width: 15%;
+}
+
+.p1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 600px;
+    margin-top: -80px; /*negative numbers make it go up on page*/
+    font-size: 24px;
+}
+
+#Work {
+    font-size: 55px;
+    padding-top: 5%;
+    padding-left: 15%; /*to add spacing between border and text*/
+    color: darkblue;
+    border-right: 2px solid blue;
+    width: 15%;
+}
+
+.work-container { /*image for surf (computer image)*/
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: -500px;
+    width: 0%;
+}
+
+.Surf {
+    margin-left: 600px;
+    margin-top: -50px;
+}
+
+.MERN {
+    margin-left: 600px;
+    margin-top: -20px;
+}
+
+.LED-Wall {
+    display: inline-block;
+    margin-left: 950px;
+    margin-top: -200px;
+}
+
+.LED-text {
+    margin-left: 950px;
+    margin-top: -70px;
+    color: white;
+}
+
+.Node {
+    margin-left: 950px;
+    color: white;
+    font-size: 25px;
+    margin-top: -15px;
+
+}
+
+.Calculator {
+    display: flex;
+    margin-left: 650px;
+}
+
+.Calc {
+    margin-left: 700px;
+    margin-top: -135px;
+}
+
+.React {
+    margin-left: 700px;
+}
+
+.Pastel {
+    display: inline-block;
+    margin-left: 1000px;
+    margin-top: -160px;
+}
+
+.Pastel-Puzzles {
+    margin-left: 1040px;
+    margin-top: -150px;
+}
+
+.MERN-Stack {
+    margin-left: 1040px;
+    margin-top: -15px
+}
+
+.Run {
+    display: inline-block;
+    margin-left: 625px;
+    margin-bottom: 10%;
+}
+
+.Run-Buddy {
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+.HTML {
+    margin-left: 700px;
+}
+
+#Contact-Me {
+    font-size: 55px;
+    padding-top: 5%;
+    padding-left: 15%; /*to add spacing between border and text*/
+    color: darkblue;
+    border-right: 2px solid blue;
+    width: 15%;
+}
+
+.Contact-info {
+     display: inline-block;
+    vertical-align: top;
+    margin-left: 600px;
+    margin-top: -80px; /*negative numbers make it go up on page*/
+    font-size: 24px;
+}
